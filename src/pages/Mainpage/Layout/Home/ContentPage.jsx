@@ -18,7 +18,7 @@ const Carousel = () => {
         animate="enter"
         exit="exit"
       >
-        <div className="hello">Hi</div>
+        <div className="HIIII">Hi</div>
         <div className="hello">Hi</div>
         <div className="hello">Hi</div>
         <div className="hello">Hi</div>
