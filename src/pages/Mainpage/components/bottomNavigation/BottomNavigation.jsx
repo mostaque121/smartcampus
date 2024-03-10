@@ -10,25 +10,25 @@ const BottomNavigation = () => {
     <div className="bottom-navigation-container">
       <div className="bottom-navigation">
         <BottomMenu
-          to="/home"
+          to="/smartcampus/home"
           inactiveIcon={<GoHome />}
           activeIcon={<GoHomeFill />}
           text="Home"
         />
         <BottomMenu
-          to="/users"
+          to="/smartcampus/users"
           inactiveIcon={<HiOutlineUsers />}
           activeIcon={<HiMiniUsers />}
           text="Users"
         />
         <BottomMenu
-          to="/message"
+          to="/smartcampus/message"
           inactiveIcon={<RiMessage3Line />}
           activeIcon={<RiMessage3Fill />}
           text="Message"
         />
         <BottomMenu
-          to="/profile"
+          to="/smartcampus/profile"
           inactiveIcon={<TbUser />}
           activeIcon={<TbUserFilled />}
           text="Profile"
